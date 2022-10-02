@@ -1,4 +1,4 @@
-# ControlCrop
+# Universal Control Cropping Class
 Add Cropping to any control with image or backgroundimage
 
 I love programing especially in graphics. 
