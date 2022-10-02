@@ -63,26 +63,6 @@ namespace ControlCrop.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap FC {
-            get {
-                object obj = ResourceManager.GetObject("FC", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Fotolia_55871312_XS_300x300 {
-            get {
-                object obj = ResourceManager.GetObject("Fotolia_55871312_XS-300x300", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap Lion {
             get {
                 object obj = ResourceManager.GetObject("Lion", resourceCulture);
@@ -96,26 +76,6 @@ namespace ControlCrop.Properties {
         internal static System.Drawing.Bitmap Lion1 {
             get {
                 object obj = ResourceManager.GetObject("Lion1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap LoginScreen {
-            get {
-                object obj = ResourceManager.GetObject("LoginScreen", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap register {
-            get {
-                object obj = ResourceManager.GetObject("register", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

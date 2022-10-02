@@ -82,18 +82,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\LoginScreen.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\FC.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Fotolia_55871312_XS-300x300.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\register.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Lion.jpg" />
   </ItemGroup>
   <ItemGroup>

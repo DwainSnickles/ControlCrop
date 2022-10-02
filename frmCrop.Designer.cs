@@ -140,9 +140,9 @@ namespace ControlCrop
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(329, 53);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(113, 13);
+            this.label5.Size = new System.Drawing.Size(230, 13);
             this.label5.TabIndex = 10;
-            this.label5.Text = "Picturebox After Crop  ";
+            this.label5.Text = "Display cropped Image from panel in picturebox";
             // 
             // label6
             // 
