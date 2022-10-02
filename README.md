@@ -13,6 +13,12 @@ WALA! This class was born.
 
 ![CropForm](https://user-images.githubusercontent.com/26853477/193463038-440cbe0c-2259-4d9f-8b62-81929865720e.png)
 
+Note:
+
+The whole crop rectangle can be dragged using right mouse down and drag crop rectangle to desired are inside the control.
+
+Use the drag by left mouse down on any of the drag handles drag the crop rectangle in different diretions.
+
 Usage is fairly simple
 
 1) Create an instance of the crop class in form
