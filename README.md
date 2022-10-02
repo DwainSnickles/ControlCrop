@@ -1,8 +1,12 @@
 # ControlCrop
 Add Cropping to any control with image or backgroundimage
-I love programing exspeccially in graphics. 
+
+I love programing especially in graphics. 
+
 I ran into a situation where I need to crop a simple picturebox wasnt as easy as anticipated.
+
 Then I wanted to crop a panel background image started rewritting the code for that.
+
 Brainstorm how about a class that could be universal to any control that has some kind of image.
 
 WALA This class was born.
