@@ -29,7 +29,7 @@ Usage is fairly simple
         {
             InitializeComponent();
 
-            //Set crop control for each cotrol
+            //Set crop control for each control that requires cropping
 
             //Set the Control in this case panel to add crop rectangle
             ControlrectPanel = new ControlCrop(pnlCrop);

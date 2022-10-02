@@ -235,6 +235,7 @@ namespace ControlCrop
             this.Controls.Add(this.label2);
             this.Controls.Add(this.pnlCrop);
             this.Controls.Add(this.picCrop);
+            this.DoubleBuffered = true;
             this.Name = "frmCrop";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Easily add cropping to any control";

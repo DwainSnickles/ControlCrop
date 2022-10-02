@@ -131,23 +131,5 @@ namespace ControlCrop
             }
         }
 
-        //private Image GetCroppedImage(Control ctrl)
-        //{
-        //    Bitmap OriginalImage = new Bitmap(picCrop.Image, picCrop.Width, picCrop.Height);
-        //    ////Original image
-        //    Bitmap _img = new Bitmap(rect1.rect.Width, rect1.rect.Height);
-        //    //// for cropinf image
-        //    Graphics g = Graphics.FromImage(_img);
-        //    //// create graphics
-        //    g.InterpolationMode = System.Drawing.Drawing2D.InterpolationMode.HighQualityBicubic;
-        //    g.PixelOffsetMode = System.Drawing.Drawing2D.PixelOffsetMode.HighQuality;
-        //    g.CompositingQuality = System.Drawing.Drawing2D.CompositingQuality.HighQuality;
-        //    ////set image attributes
-        //    g.DrawImage(OriginalImage, 0, 0, rect, GraphicsUnit.Pixel);
-        //    picCropped.Image = _img;
-        //    picCrop.Visible = false;
-        //    g.Dispose();
-        //} 
-
     }
 }
