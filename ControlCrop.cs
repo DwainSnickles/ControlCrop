@@ -19,6 +19,7 @@ namespace ControlCrop
         public Control m_Control { get; set; }
         public bool Visible { get; set; } = true;
         private void Visible_Changed(object sender, EventArgs e) => m_Control.Invalidate();
+        public Color RectangleColor { get; set; } = Color.Black;
 
 
         public ControlCrop(Control control)
@@ -44,11 +45,11 @@ namespace ControlCrop
 
         public void Draw(Graphics g)
         {
-            g.DrawRectangle(new Pen(Color.Black), rect);
+            g.DrawRectangle(new Pen(RectangleColor), rect);
 
             foreach (PosSizableRect pos in Enum.GetValues(typeof(PosSizableRect)))
             {
-                g.DrawRectangle(new Pen(Color.Black), GetRect(pos));
+                g.DrawRectangle(new Pen(RectangleColor), GetRect(pos));
             }
         }
 
@@ -69,9 +70,14 @@ namespace ControlCrop
             m_Control.MouseUp += new MouseEventHandler(Control_MouseUp);
             m_Control.MouseMove += new MouseEventHandler(Control_MouseMove);
             m_Control.Paint += new PaintEventHandler(Control_Paint);
-            m_Control.VisibleChanged += new EventHandler(Visible_Changed);
+            m_Control.SizeChanged += new EventHandler(SizeChanged_Changed);
         }
 
+        private void SizeChanged_Changed(object sender, EventArgs e)
+        {
+            //Update rectangle and grab handles to reflect new size
+            rect = new Rectangle(sizeNodeRect, sizeNodeRect, m_Control.Width - 20, m_Control.Height - 20);
+        }
 
         private void Control_Paint(object sender, PaintEventArgs e)
         {

@@ -46,6 +46,8 @@ namespace ControlCrop
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
+            this.btnChangeCropColor = new System.Windows.Forms.Button();
+            this.pnlRectangleColor = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.picCropped)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picCroppedPanel)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picCrop)).BeginInit();
@@ -212,12 +214,32 @@ namespace ControlCrop
             this.label12.TabIndex = 17;
             this.label12.Text = "Left click and hold to drag rectangle handles";
             // 
+            // btnChangeCropColor
+            // 
+            this.btnChangeCropColor.Location = new System.Drawing.Point(406, 18);
+            this.btnChangeCropColor.Name = "btnChangeCropColor";
+            this.btnChangeCropColor.Size = new System.Drawing.Size(111, 23);
+            this.btnChangeCropColor.TabIndex = 18;
+            this.btnChangeCropColor.Text = "Change Crop Color";
+            this.btnChangeCropColor.UseVisualStyleBackColor = true;
+            this.btnChangeCropColor.Click += new System.EventHandler(this.btnChangeCropColor_Click);
+            // 
+            // pnlRectangleColor
+            // 
+            this.pnlRectangleColor.BackColor = System.Drawing.Color.Black;
+            this.pnlRectangleColor.Location = new System.Drawing.Point(516, 20);
+            this.pnlRectangleColor.Name = "pnlRectangleColor";
+            this.pnlRectangleColor.Size = new System.Drawing.Size(34, 20);
+            this.pnlRectangleColor.TabIndex = 19;
+            // 
             // frmCrop
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(627, 397);
+            this.Controls.Add(this.btnChangeCropColor);
+            this.Controls.Add(this.pnlRectangleColor);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
@@ -266,6 +288,8 @@ namespace ControlCrop
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Button btnChangeCropColor;
+        private System.Windows.Forms.Panel pnlRectangleColor;
     }
 }
 

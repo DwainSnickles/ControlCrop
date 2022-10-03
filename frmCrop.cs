@@ -32,7 +32,6 @@ namespace ControlCrop
             ControlrectPicturebox.SetControl(this.picCrop);
 
         }
-
         public string GetImageFilter()
         {
             StringBuilder allImageExtensions = new StringBuilder();
@@ -131,5 +130,14 @@ namespace ControlCrop
             }
         }
 
+        private void btnChangeCropColor_Click(object sender, EventArgs e)
+        {
+            ColorDialog colorDialog1 = new ColorDialog();
+            colorDialog1.ShowDialog();
+            pnlRectangleColor.BackColor = colorDialog1.Color;
+            ControlrectPicturebox.RectangleColor = colorDialog1.Color;
+            pnlRectangleColor.Invalidate();
+            this.picCrop.Invalidate();
+        }
     }
 }
