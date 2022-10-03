@@ -11,7 +11,9 @@ Brainstorm how about a class that could be universal to any control that has som
 
 WALA! This class was born.
 
-![CropForm](https://user-images.githubusercontent.com/26853477/193463038-440cbe0c-2259-4d9f-8b62-81929865720e.png)
+Update 10/3/2022 While using I had an image with a black background had to add ability to change rectangle color for visibility.
+
+![ScreenShot](https://user-images.githubusercontent.com/26853477/193578676-80c3599d-52d1-4006-a04c-e4a3c25b5a87.png)
 
 Note:
 
